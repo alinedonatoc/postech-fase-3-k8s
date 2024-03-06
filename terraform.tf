@@ -3,13 +3,12 @@
 
 terraform {
 
-    cloud {
-        organization = "DevopsFiapSoat3-G35"
-
-        workspaces {
-        name = "gh-actions"
-        }
+  cloud {
+    organization = "DevopsFiapSoat3-G35"
+    workspaces {
+      name = "gh-actions"
     }
+  }
 
   required_providers {
     aws = {
